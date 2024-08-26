@@ -21,5 +21,9 @@ public class mainEjercicio1_b {
             Profesor profesor = iterador.next();
             System.out.println(profesor.toString());
         }
+        
+        Profesor a = new Profesor(10,"Leandro Romagnoli",10,"Ed. Fisica");
+        Profesor b = new Profesor(10,"Leandro Romagnoli",10,"Ed. Fisica");
+        if( a.equals(b)) System.out.println(" Es el mismo profesor.");
 	}
 }
