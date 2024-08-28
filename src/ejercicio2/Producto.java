@@ -9,6 +9,11 @@ public class Producto {
         this.fechaCaducidad = fechaCaducidad;
         this.numeroLote = numeroLote;
     }
+    
+    public Producto() {
+		this.fechaCaducidad = "1/1/1000";
+		this.numeroLote= -1;
+	}
 
     public String getFechaCaducidad() {
         return fechaCaducidad;

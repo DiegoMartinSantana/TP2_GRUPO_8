@@ -10,6 +10,12 @@ public class ProductoFresco extends Producto{
         this.fechaEnvasado = fechaEnvasado;
         this.paisOrigen = paisOrigen;
     }
+	
+	public ProductoFresco() {
+		super();
+		this.fechaEnvasado="1/1/0001";
+		this.paisOrigen="Sin país";
+	}
 
     public String getFechaEnvasado() {
         return fechaEnvasado;
